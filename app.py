@@ -92,6 +92,6 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 
 df = pd.read_csv(
-    "WK2_Airbnb_Amsterdam_listings_proj_solution.csv", index_col=0
+    "WK2_Airbnb_Amsterdam_listings_proj_solution (1).csv", index_col=0
 )
 st.dataframe(filter_dataframe(df))
